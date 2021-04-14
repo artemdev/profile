@@ -1,3 +1,3 @@
-export default function NavBarView() {
-  return <>Hey im on he main page!</>;
+export default function ProfileView() {
+  return <>Hey I'm on the profile page</>;
 }

@@ -3,10 +3,10 @@ import React, { Suspense, lazy } from "react";
 
 import PrivateRoute from "./components/PrivateRoute";
 import PublicRoute from "./components/PublicRoute";
-const LoginPageView = lazy(() => import("./views/loginPageView"));
-const MainPageView = lazy(() => import("./views/mainPageView"));
-const ProfileView = lazy(() => import("./views/profileView"));
-const NavBarView = lazy(() => import("./views/navBarView"));
+const LoginPageView = lazy(() => import("./views/LoginPageView"));
+const MainPageView = lazy(() => import("./views/MainPageView"));
+const ProfileView = lazy(() => import("./views/ProfileView"));
+const NavBarView = lazy(() => import("./views/NavBarView"));
 
 export default function App() {
   return (
