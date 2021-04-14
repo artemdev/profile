@@ -1,4 +1,3 @@
-import routes from "../../helpers/routes";
 export default function NavBarView() {
   return (
     <header>
@@ -6,7 +5,7 @@ export default function NavBarView() {
         <li>
           <a href="/">To the main page</a>
           <a href="/profile">Profile</a>
-          <a href={routes.google_url}>Login</a>
+          <a href="/login">Login</a>
         </li>
       </ul>
     </header>
