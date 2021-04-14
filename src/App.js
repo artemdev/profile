@@ -7,6 +7,7 @@ const LoginPageView = lazy(() => import("./views/LoginPageView"));
 const MainPageView = lazy(() => import("./views/MainPageView"));
 const ProfileView = lazy(() => import("./views/ProfileView"));
 const NavBarView = lazy(() => import("./views/NavBarView"));
+
 export default function App() {
   return (
     <>
